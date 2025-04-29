@@ -1,10 +1,10 @@
-body{
+body {
     background: darkgoldenrod;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.keret{
+.keret {
     width: 80%;
     border: 5px solid #666566;
     background: bisque;
@@ -21,10 +21,23 @@ h2{
     text-align: center;
 }
 
-.picture01{
+.picture01 {
     width: 20%;
     height: 20%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin: auto;
+}
+
+.picture02 {
+    float: left;
+    margin: 0 15px 10px 20px;
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+}
+
+.clear {
+    clear: both;
 }
