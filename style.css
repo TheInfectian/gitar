@@ -4,8 +4,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.keret {
-    width: 80%;
+header {
+    color: black;
+    text-align: center;
+}
+
+.frame {
+    width: 50%;
     border: 5px solid #666566;
     background: bisque;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
@@ -17,16 +22,38 @@ p{
     text-align: justify;
 }
 
-h2{
+h2, h3{
     text-align: center;
 }
 
 .picture01 {
-    width: 20%;
-    height: 20%;
+    width: 70%;
+    height: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin: auto;
+    display: block;
+}
+
+.gitar-list {
+    list-style: none;
+}
+
+.gitar-list li {
+    border: 1px solid darkgoldenrod;
+    border-radius: 8px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.listgitarpictures {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: auto;
+    float: left;
+    margin: 0 15px 10px 0;
 }
 
 .picture02 {
