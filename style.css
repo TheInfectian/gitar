@@ -10,7 +10,7 @@ header {
 }
 
 .frame {
-    width: 50%;
+    width: 40%;
     border: 5px solid #666566;
     background: bisque;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ h2, h3{
     text-align: center;
 }
 
-.picture01 {
+.picture01, .schematic {
     width: 70%;
     height: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -67,4 +67,14 @@ h2, h3{
 
 .clear {
     clear: both;
+}
+
+.left-float {
+    float: left;
+    width: 40%;
+}
+
+.right-float {
+    float: right;
+    width: 40%;
 }
