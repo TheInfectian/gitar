@@ -35,6 +35,11 @@ h2, h3{
     display: block;
 }
 
+.schematic:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
 .gitar-list {
     list-style: none;
 }
@@ -43,7 +48,7 @@ h2, h3{
     border: 1px solid darkgoldenrod;
     border-radius: 8px;
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -77,4 +82,16 @@ h2, h3{
 .right-float {
     float: right;
     width: 40%;
+}
+
+.Gitar-artists td, th {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.Gitar-artists {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 55px;
 }
